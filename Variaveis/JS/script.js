@@ -23,3 +23,7 @@ console.log(typeof float);
 var TextoNumero = '123'
 console.log(TextoNumero);
 console.log(typeof TextoNumero);
+
+console.log(typeof NaN);
+console.log(typeof +Infinity);
+console.log(typeof -Infinity);
