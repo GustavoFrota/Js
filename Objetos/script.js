@@ -1,7 +1,8 @@
 var obj = {
     nome: "Gustavo",
     idade: 19,
-    ocupação: "estudante"
+    ocupação: "estudante",
+    estaTrabalhando: false
 };
 
 console.log(obj);
