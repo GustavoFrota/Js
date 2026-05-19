@@ -19,3 +19,8 @@ console.log(obj.ocupação);
 
 //Exemplo
 console.log("O meu nome é " + obj.nome);
+
+//Mudando o nome
+obj.nome = "Gabriel";
+console.log(obj.nome);
+console.log(obj);
