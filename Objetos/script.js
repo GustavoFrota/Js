@@ -15,3 +15,6 @@ console.log(obj.idade);
 
 //Acessando a ocupação
 console.log(obj.ocupação);
+
+//Exemplo
+console.log("O meu nome é " + obj.nome);
