@@ -7,9 +7,11 @@ if(nome == "Gustavo" && idade >= 16) {
     console.log("Este não é o Gustavo");
 }
 
-var identidade = "Guilherme";
-var age = 16;
+var identidade = "Gus";
+var age = 18;
 
 if (identidade == "Guilherme" || age >= 18) {
     console.log("Pode entrar");
+} else {
+    console.log("Não pode entrar");
 }
