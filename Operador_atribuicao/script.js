@@ -2,4 +2,4 @@ var x = 1;
 var y = 2;
 
 console.log(x = x + y);
-console.log(x += y); // mesmo resultado
+console.log(x += y);
