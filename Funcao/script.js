@@ -16,3 +16,11 @@ dizerNome("Ana");
 var nomeDoCliente = "João";
 
 dizerNome(nomeDoCliente);
+
+function soma(a, b) {
+    var soma = a + b
+    return soma;
+}
+
+var somaUm = soma(10, 2);
+console.log(somaUm)
