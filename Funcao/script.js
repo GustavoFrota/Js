@@ -12,3 +12,7 @@ dizerNome("Gustavo");
 dizerNome("Maria");
 dizerNome("Matheus");
 dizerNome("Ana");
+
+var nomeDoCliente = "João";
+
+dizerNome(nomeDoCliente);
