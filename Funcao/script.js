@@ -3,3 +3,9 @@ function primeiraFuncao() {
 }
 
 primeiraFuncao();
+
+function dizerNome(nome) {
+    console.log("Meu nome é: " + nome);
+}
+
+dizerNome("Gustavo");
