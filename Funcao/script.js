@@ -9,3 +9,6 @@ function dizerNome(nome) {
 }
 
 dizerNome("Gustavo");
+dizerNome("Maria");
+dizerNome("Matheus");
+dizerNome("Ana");
