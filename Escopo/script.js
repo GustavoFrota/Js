@@ -9,5 +9,7 @@ function teste() {
     var z = 4;
     
     console.log(z)
+    console.log(x)
+    console.log(y)
 }
 teste()
