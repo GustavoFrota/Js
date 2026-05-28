@@ -6,3 +6,6 @@ console.log(frutas.indexOf('uva')); //uva está no indíce 1
 
 var frase = "O rato roeu a roupa do rei de Roma";
 console.log(frase.indexOf("Roma"));
+
+var roeu = frase.slice(7, 11); //serve para copiar uma parte de um array ou string sem alterar o original
+console.log(roeu);
