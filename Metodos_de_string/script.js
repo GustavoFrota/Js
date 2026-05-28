@@ -15,3 +15,5 @@ console.log(novaFrase);
 
 let texto = "Hello World";
 console.log(texto.toLowerCase()); // toLowerCase serve para transformar uma string em letras minúsculas
+
+console.log(texto.toUpperCase()); // toUpperCase serve para converter uma string inteira para letras maiúsculas
