@@ -14,5 +14,4 @@ var novaFrase = frase.replace("roeu", "teste"); // replace serve para substituir
 console.log(novaFrase);
 
 let texto = "Hello World";
-let resultado = texto.toLowerCase(); // toLowerCase serve para transformar uma string em letras minúsculas
-console.log(resultado);
+console.log(texto.toLowerCase()); // toLowerCase serve para transformar uma string em letras minúsculas
