@@ -12,3 +12,7 @@ console.log(roeu);
 
 var novaFrase = frase.replace("roeu", "teste"); // replace serve para substituir partes de uma string por outro valor
 console.log(novaFrase);
+
+let texto = "Hello World";
+let resultado = texto.toLowerCase(); // toLowerCase serve para transformar uma string em letras minúsculas
+console.log(resultado);
