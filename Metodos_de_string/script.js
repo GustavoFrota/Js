@@ -20,3 +20,6 @@ console.log(texto.toUpperCase()); // toUpperCase serve para converter uma string
 
 let declaracao = "  olá mundo    ";
 console.log(declaracao.trim()); // trim serve para remover espaços em branco do início e do fim de uma string
+
+let fraseSplit = "Olá, meu nome é Gustavo";
+console.log(fraseSplit.split(" ")); // split serve para dividir uma string em partes, retornando um array
