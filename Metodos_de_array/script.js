@@ -10,3 +10,8 @@ frutas.pop();  // pop serve para remover o último elemento de um array e retorn
 frutas.unshift("maçã"); // unshift serve para adicionar um ou mais elementos no início de um array
 
 console.log(frutas);
+
+let alunos = ['Maria', 'Gabriel', 'Marcos', 'Ana'];
+alunos.shift() // shift serve para remover o primeiro elemento de um array e retornar esse elemento
+
+console.log(alunos)
