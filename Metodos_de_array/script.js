@@ -15,3 +15,7 @@ let alunos = ['Maria', 'Gabriel', 'Marcos', 'Ana'];
 alunos.shift() // shift serve para remover o primeiro elemento de um array e retornar esse elemento
 
 console.log(alunos)
+
+let cores = ['azul', 'vermelho', 'verde'];
+cores.splice(1, 1, 'amarelo'); // splice serve para alterar uma array, removendo ou adicionando um elemento
+console.log(cores)
