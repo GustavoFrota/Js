@@ -6,4 +6,7 @@ console.log(arr.length); // length é usada para indicar o tamanho de algo
 
 var frutas = ["uva", "abacaxi", "laranja", "banana", "mamão"];
 frutas.pop();  // pop serve para remover o último elemento de um array e retornar esse elemento
+
+frutas.unshift("maçã"); // unshift serve para adicionar um ou mais elementos no início de um array
+
 console.log(frutas);
