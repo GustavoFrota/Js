@@ -17,3 +17,6 @@ let texto = "Hello World";
 console.log(texto.toLowerCase()); // toLowerCase serve para transformar uma string em letras minúsculas
 
 console.log(texto.toUpperCase()); // toUpperCase serve para converter uma string inteira para letras maiúsculas
+
+let declaracao = "  olá mundo    ";
+console.log(declaracao.trim()); // trim serve para remover espaços em branco do início e do fim de uma string
