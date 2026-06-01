@@ -1,11 +1,16 @@
 // tag
 var titulo = document.getElementsByTagName('h1')[0];
-console.log(titulo)
+console.log(titulo);
 
-var list = document.getElementsByTagName('li')
-console.log(list)
+var list = document.getElementsByTagName('li');
+console.log(list);
 
 // id
 
-var paragrafo = document.getElementById('paragrafo')
-console.log(paragrafo)
+var paragrafo = document.getElementById('paragrafo');
+console.log(paragrafo);
+
+// class
+
+var itensDaLista = document.getElementsByClassName('item');
+console.log(itensDaLista);
