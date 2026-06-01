@@ -11,6 +11,9 @@ let Pessoa = {
     },
     dizerNome: function() {
         console.log("Meu nome é " + this.nome); 
+    },
+    saudacao: function() {
+        return "Sr " + this.nome
     }
 }
 
@@ -18,3 +21,5 @@ console.log(Pessoa.nome);
 
 Pessoa.falar();
 Pessoa.dizerNome();
+
+console.log(Pessoa.saudacao())
