@@ -4,3 +4,8 @@ console.log(titulo)
 
 var list = document.getElementsByTagName('li')
 console.log(list)
+
+// id
+
+var paragrafo = document.getElementById('paragrafo')
+console.log(paragrafo)
