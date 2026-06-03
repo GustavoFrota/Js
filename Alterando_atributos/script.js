@@ -11,3 +11,8 @@ btn.setAttribute("disabled", "disabled");
 var subtitle = document.querySelector('#subtitle');
 
 subtitle.setAttribute("class", "titulo-2");
+
+// Remover atributos
+
+var lista = document.querySelector('#lista');
+lista.removeAttribute("id");
