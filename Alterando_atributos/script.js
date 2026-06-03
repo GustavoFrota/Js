@@ -7,3 +7,7 @@ console.log(title);
 var btn = document.querySelector('#btn');
 
 btn.setAttribute("disabled", "disabled");
+
+var subtitle = document.querySelector('#subtitle');
+
+subtitle.setAttribute("class", "titulo-2");
