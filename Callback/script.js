@@ -1,13 +1,17 @@
-function somar(A, B) {
+function exibir(num) {
+    console.log("A operação resultou em : " + num);
+}
+
+function somar(A, B, callback) {
     var op = A + B;
-    console.log(op);
+    callback(op);
 }
 
-function multi(A, B) {
+function multi(A, B, callback) {
     var op = A * B;
-    console.log(op);
+    callback(op);
 }
 
-somar(4, 2);
+somar(4, 2, exibir);
 
-multi(4, 2);
+multi(4, 2, exibir);
