@@ -6,3 +6,9 @@ setTimeout(function() {
 }, 2000);
 
 console.log("Depois do setTimeout");
+
+//setInterval
+
+setInterval(function() {
+    console.log("Testando setInterval")
+}, 5000);
